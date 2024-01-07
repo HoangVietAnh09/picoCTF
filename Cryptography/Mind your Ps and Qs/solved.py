@@ -1,0 +1,24 @@
+from Crypto.Util.number import *
+
+c = 964354128913912393938480857590969826308054462950561875638492039363373779803642185
+n = 1584586296183412107468474423529992275940096154074798537916936609523894209759157543
+e = 65537
+
+# Mình dùng web http://www.factordb.com/ để phân tích n thành 2 số nguyên tố q & p.
+
+p = 2434792384523484381583634042478415057961
+q = 650809615742055581459820253356987396346063
+
+# Sau đó tính phi
+
+phi = (q-1)*(p-1)
+
+# Tiếp đến tính d
+
+d = pow(e, -1, phi)
+
+#Tiếp đến là tính ra flag
+
+flag = pow(c, d, n)
+
+print(long_to_bytes(flag).decode())

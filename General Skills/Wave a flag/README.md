@@ -14,4 +14,4 @@ Sau khi chạy file màn hình terminal sẽ như sau:
 
 Làm theo yêu cầu ta lấy được flag.
 
-![Alt text](image-3.png)
+Flag:  picoCTF{b1scu1ts_4nd_gr4vy_616f7182}

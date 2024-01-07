@@ -1,0 +1,5 @@
+![Alt text](image.png)
+
+
+
+Flag: picoCTF{sma11_N_n0_g0od_73918962}

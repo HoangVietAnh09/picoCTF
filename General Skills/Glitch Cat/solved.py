@@ -1,0 +1,7 @@
+flag = [0x61, 0x34, 0x33, 0x39, 0x32, 0x64, 0x32, 0x65]
+tmp = ''
+for i in flag:
+    tmp += chr(i)
+
+print('picoCTF{gl17ch_m3_n07_' + tmp + '}')
+
